@@ -8,20 +8,13 @@
 ## Рассмотрите случай числа с плавающей точкой и не обязательно 3-х значного
 
 
-number = input("Введите трехзначное число: ")
+number = int(input("Введите трехзначное число: "))
 
-if
+
 number_1 = number % 10
 number_2 = (number // 10) % 10
 number_3 = number // 100
 
 resoult_number = number_1 + number_2 + number_3
 
-
-
-## if(len(number) == 3)
-   ## {
-     ##   number = int
-       ## resoult_number = number_1 + number_2 + number_3
-    ##}
 print(resoult_number)
